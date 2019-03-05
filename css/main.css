@@ -1,0 +1,68 @@
+
+ul {
+
+	list-style-type: none;
+}
+
+.header-wrapper{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #DFD
+}
+
+h1{
+	margin: 15px;
+	/*font-family: 'Gloria Hallelujah', cursive;*/
+	font-family: 'Gaegu', cursive;
+	font-weight: bold;
+	/*font-family: 'Emilys Candy', cursive;*/
+	color: #006600;
+	font-size: 7em;
+}
+
+.body-wrapper {
+	display: flex;
+	justify-content: space-between;
+
+	background: #AFA;
+
+}
+
+span {
+	margin: 15px;
+}
+
+
+.main,
+.sidebar {
+  
+	border: 3px solid black;
+	margin: 15px;
+	font-family: 'Gaegu', cursive;
+	font-size: 2em;
+	background: #FFF;
+
+}
+
+/* Make a sticky sidebar on the LHS of the page for categories*/
+.sidebar {
+
+	width: 20%;
+
+	/* This line makes sidebar sticky for Safari*/
+	position: -webkit-sticky;
+	/* This line makes sidebar sticky for other browsers*/	
+	position: sticky;
+
+	
+
+	top: 0;
+
+}
+
+.main {
+	width: 70%; 
+
+}
